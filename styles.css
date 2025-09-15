@@ -313,8 +313,11 @@ body {
 }
 
 .modal-content .btn {
-  margin-top: 20px;
-  padding: 12px 20px; /* Larger button */
+  display: flex; /* Makes the button a flex container */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  margin: 20px auto 0;
+  padding: 12px 30px; /* Adjusts button size to be more reasonable */
   font-size: 16px;
   border-radius: 10px;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
